@@ -11,12 +11,12 @@ const NavbarComponents = () => {
           <Nav className="nav-link" > 
  
           <Nav.Link href="Homepage">Home</Nav.Link>
+          <Nav.Link href="Layanankonsultasi">Layanan Konsultasi</Nav.Link>
+          <Nav.Link href="Pemesanan">Pemesanan</Nav.Link>
           <NavDropdown title="Informasi" id="basic-nav-dropdown" >
               <NavDropdown.Item href="TentangKami">Tentang Kami</NavDropdown.Item>
               <NavDropdown.Item href="PusatBantuan">Pusat Bantuan</NavDropdown.Item>
             </NavDropdown>
-          <Nav.Link href="Pemesanan">Pemesanan</Nav.Link>
-          <Nav.Link href="Layanankonsultasi">Layanan Konsultasi</Nav.Link>
           </Nav>
 
 
